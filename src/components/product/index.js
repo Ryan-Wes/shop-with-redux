@@ -3,8 +3,7 @@ import styled from "styled-components";
 import { addProductsToCart } from "../../store/actions/cart";
 
 const Product = ({ name, price }) => {
-
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   return (
     <ListItem>
@@ -33,17 +32,17 @@ const ListItem = styled.li`
   background-color: #2f3042;
 
   h3 {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   button {
-      align-self: center;
-      padding: 10px;
-      border-radius: 5px;
-      border: none;
-      background-color: #ff7272;
-      color: #ffffff;
-      cursor: pointer;
+    align-self: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7272;
+    color: #ffffff;
+    cursor: pointer;
   }
 `;
 

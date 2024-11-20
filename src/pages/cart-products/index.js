@@ -10,7 +10,7 @@ const CartProducts = () => {
     <main>
       <h1>Cart Products</h1>
       <section>
-        <Products products={[cartProducts]} />  
+        <Products products={cartProducts} />  
       </section>
     </main>
   );
